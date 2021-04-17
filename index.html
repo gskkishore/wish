@@ -13,6 +13,28 @@
             body {
                 background-color: powderblue;
             }
+            .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0;
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color:black;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
         </style>
     </head>
     <body>
@@ -25,18 +47,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4" style="margin: 0 auto;">
-                        <div class="card  m-3 shadow-lg p-3 mb-5" style="border-radius: 15px;">
-                            <img src="./img/2.jpg" style="height: 250px;border-radius: 5px;">
+                        <div class="card  m-3 shadow-lg p-3 mb-5 fade-in" style="border-radius: 15px;">
+                            <img src="./img/2.jpg" style="height: 250px;border-radius: 5px;" >
+                            <div class="overlay">My...</div>
                         </div>
                     </div>
                     <div class="col-sm-4" style="margin: 0 auto;">
-                        <div class="card  m-3 shadow-lg p-3 mb-5" style="border-radius: 15px;">
+                        <div class="card  m-3 shadow-lg p-3 mb-5 fade-in" style="border-radius: 15px;">
                             <img src="./img/3.jpg" style="height: 250px;border-radius: 5px;">
+                            <div class="overlay">Best...</div>
                         </div>
                     </div>
                     <div class="col-sm-4" style="margin: 0 auto;">
-                        <div class="card  m-3 shadow-lg p-3 mb-5" style="border-radius: 15px;">
+                        <div class="card  m-3 shadow-lg p-3 mb-5 fade-in" style="border-radius: 15px;">
                             <img src="./img/4.jpg" style="height: 250px;border-radius: 5px;">
+                            <div class="overlay">Well...</div>
                         </div>
                     </div>
                 </div>
@@ -44,11 +69,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12" >
-                        <div class="card  m-3 shadow-lg p-3 mb-5" style="border-radius: 15px;background-color: pink;">
+                        <div class="card  m-3 shadow-lg p-3 mb-5 fade-in" style="border-radius: 15px;background-color: pink;">
                             <div class="card-body" style="margin: 0 auto;">
                             <h1 class="ml6">
                                 <span class="text-wrapper">
-                                    <span class="letters text-info" style="font-weight:300;font-size:medium">Happiee Birthday Eruma....(-_-)</span>
+                                    <span class="letters text-info" style="font-weight:300;font-size:medium">Happiee Birthday My Dear BestIee....(-_-)</span>
+                                    
                                 </span>
                             </h1>
                             </div>
@@ -59,18 +85,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4" style="margin: 0 auto;">
-                        <div class="card  m-3 shadow-lg p-3 mb-5" style="border-radius: 15px;">
+                        <div class="card  m-3 shadow-lg p-3 mb-5 fade-in" style="border-radius: 15px;">
                             <img src="./img/5.jpg" style="height: 250px;border-radius: 5px;">
+                            <div class="overlay">Wisher...</div>
                         </div>
                     </div>
                     <div class="col-sm-4" style="margin: 0 auto;">
-                        <div class="card  m-3 shadow-lg p-3 mb-5" style="border-radius: 15px;">
+                        <div class="card  m-3 shadow-lg p-3 mb-5 fade-in" style="border-radius: 15px;">
                             <img src="./img/6.png" style="height: 250px;border-radius: 5px;">
+                            <div class="overlay">For...</div>
                         </div>
                     </div>
                     <div class="col-sm-4" style="margin: 0 auto;">
-                        <div class="card  m-3 shadow-lg p-3 mb-5" style="border-radius: 15px;">
+                        <div class="card  m-3 shadow-lg p-3 mb-5 fade-in" style="border-radius: 15px;">
                             <img src="./img/7.jpg" style="height: 250px;border-radius: 5px;">
+                            <div class="overlay">Ever...</div>
                         </div>
                     </div>
                 </div>
